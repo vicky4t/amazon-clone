@@ -1,0 +1,2305 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/** header **/
+.navbar{
+    height:60px;
+    width:100%;
+    background-color:#0f1111;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid rgba(255, 252, 252, 0.684);
+}
+.amazon-logo{
+    height:50px;
+    margin-left:10px;
+
+}
+/** address logo  **/
+.nav-address{
+    color:white;
+    height:50px;
+    width:90px;
+    margin-left:15px;
+    margin-top:10px;
+
+}
+.first-logo{
+    color:rgb(193, 193, 193);
+    font-size:12px;
+    margin-left:20px;
+}
+.second-logo{
+    display:inline;
+    margin-top:10px;
+
+}
+/** searchbar **/
+
+.searchbar{
+    display:flex;
+    height:40px;
+    width:820px;
+    border-radius:5px;
+    background-color:pink;
+    
+}
+.searchbar:hover{
+    border:3px solid orange;
+}
+
+.search-select{
+    height:40px;
+    width:51px;
+    border-radius:5px;
+    font-size:15px;
+    padding-left:10px;
+    background-color:#e1dfdb;
+    padding-left:5px;
+
+}
+
+.search-input{
+    font-size:20px;
+    width:715px;
+
+}
+
+.search-icon{
+    padding:10px;
+    background-color:#dcca52;
+    color:rgb(14, 12, 12);
+
+}
+/**language icon **/
+
+.language-icon{
+    font-size:1.5rem;
+    display:flex;
+    color:white;
+    margin-left:20px;
+
+
+}
+
+/** sign- in & account opening **/
+span{
+    color:white;
+    font-size:12px;
+
+}
+.account-login{
+    font-size:16px;
+    font-weight:50px;
+    color:white;
+    text-decoration:none;
+}
+
+/** return and orders **/
+#orders{
+    color:white;
+    font-size:16px;
+    font-weight:20px;
+}
+
+/** cart logo **/
+.cart i{
+    color:white;
+    font-size:25px;
+}
+.cart{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/** panel bar **/
+
+.panel{
+    height:40px;
+    width:100%;
+    background-color:#2a3030;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    
+}
+
+.panel-all{
+    color:white;
+    font-size:20px;
+
+}
+
+.panel-options{
+    font-size:20px;
+    
+}
+.ops{
+    margin-left:20px;
+    color:white;
+    font-weight:100;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:none;
+}
+
+/** background-image **/
+
+.bgi{
+    height:600px;
+    width:100%;
+    background-image:url("/css/shoppin-background-image4.jpg");
+    background-size:cover;
+}
+
+/** amazon.in link with the note **/ 
+.amazonin-link{
+    height:40px;
+    width:92%;
+    display:flex;
+    align-items:center;
+    position:absolute;
+    justify-content:space-around;
+    left:57px;
+    top:375px;
+    color:#0f1111;
+    font-family:Arial;
+    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0.227);
+    
+}
+
+.note{
+    color:#007185;
+    text-decoration:none;
+}
+.note:hover{
+    text-decoration:underline;
+}
+
+/** shop-section **/
+
+.shopping-section{
+    height:3245px;
+    width:100%;
+    background-color:rgb(233, 226, 226);
+    border:2px solid rgba(0, 0, 0, 0.227);
+    
+}
+.shop-section-1{
+    display:flex;
+    justify-content:space-evenly;
+}
+.box-f{
+    height:400px;
+    width:340px;
+    background-color:white;
+     border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    bottom:250px;
+}
+
+/** designing for box 1 **/
+.box1-title{
+    height:27px;
+    width:292px;
+    margin:20px 0px 10px;
+    padding:0px 20px;
+}
+.box1-img{
+    height:303px;
+    width:300px;
+    padding-left:7px;
+    text-decoration:none;
+}
+.shop-gaming-text{
+    margin-left: 10px;
+    font-size:14px;
+    color:#0f1111;
+}
+/** designing for box 2 **/
+.box2-title{
+    height:27px;
+    width:292px;
+    margin:20px 0px 10px 10px;
+    
+}
+
+
+.box2-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.home-storage-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box2-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+
+.box2-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.home-decor-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.home-decor-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box2-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.bedding-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+.discover-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+}
+/** designing for box 3 **/
+.box3-title{
+    height:27px;
+    width:292px;
+    margin:20px 0px 0px 10px;
+    
+}
+
+.box3-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.dress-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box3-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.knits-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box3-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.jackets-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.jackets-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box3-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.jewelry-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+.explore-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+}
+/** designing for box 4 **/
+
+.box4-title{
+    height:27px;
+    width:292px;
+    margin:20px 0px 0px 10px;
+    
+}
+
+.box4-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.kichten-dining-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box4-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Home-improment-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box4-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.decor-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.decor-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box4-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.bedding-bath-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+.shop-home-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+
+.shop-section-2{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.box-s{
+    height:400px;
+    width:340px;
+    background-color:white;
+     border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    bottom:220px;
+}
+
+/** designing for box 5 **/
+
+.box5-title{
+    height:27px;
+    width:292px;
+    margin:20px 0px 0px 10px;
+    
+}
+
+.box5-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.cooker-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box5-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.coffee-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box5-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.pots-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.pots-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box5-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.kettle-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.kitchen-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 6 **/
+
+.box6-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box6-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.jean-under-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box6-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.tops-25-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box6-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.dresses-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.dresses-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box6-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.shoes-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.see-deals-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 7 **/
+.box7-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box7-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.dinning2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box7-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.home2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box7-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.kitchen2-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.kitchen2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box7-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.health-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.see-more-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 8 **/
+
+.box8-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box8-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Basket-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box8-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.hardware-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box8-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.Accent-furniture-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.Accent-furniture-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box8-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Wallpaper-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.shop-home-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for first row **/
+
+.shop-section-3-row{
+    height:300px;
+    width:96%;
+    background-color:white;
+     border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    left:28px;
+    bottom:200px;
+}
+
+.shop-section-title{
+    height:31px;
+    width:90rem;
+    margin:20px 0px 0px 10px;
+}
+.row-img-container{
+    height:200px;
+    width:91em;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row1{
+    padding:5px;
+}
+
+/** designing for second row **/
+
+.shop-section-4-row{
+    height:300px;
+    width:96%;
+    background-color:white;
+     border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    left:28px;
+    bottom:200px;
+}
+.shop-section-title{
+    height:31px;
+    width:90rem;
+    padding:20px 0px 0px 10px;
+}
+.row-img-container{
+    height:200px;
+    width:91em;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row2{
+    padding:5px;
+}
+
+
+
+.shop-section-5{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.box-t{
+    height:400px;
+    width:340px;
+    background-color:white;
+     border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    bottom:220px;
+}
+
+/** designing for box 9 **/
+
+.box9-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box9-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.headphones-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box9-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.tablets-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box9-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.gaming-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.gaming-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box9-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.speakers-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.discover-more-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 10 **/
+.box10-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box10-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.ride-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box10-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Building-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box10-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.dolls-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.dolls-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box10-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Swimming-pools-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.see-all-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 11 **/
+
+.box11-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+.box11-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Apparel-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box11-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.hat-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box11-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.Action-fingures-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.Action-fingures-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box11-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.mags-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.see-more2-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 12 **/
+
+.box12-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box12-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Smartphones-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box12-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Watches-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box12-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.Headphones2-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.Headphones2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box12-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Tablets2-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.Discover-more2-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for 3rd row **/
+
+.shop-section-6-row{
+    height:300px;
+    width:96%;
+    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    left:28px;
+    bottom:200px;
+
+}
+.shop-section-title{
+    height:31px;
+    width:90rem;
+    padding:20px 0px 0px 10px;
+}
+.row-img-container{
+    height:200px;
+    width:91em;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row3{
+    padding:5px;
+}
+
+/** designing for 4th row **/
+
+.shop-section-7-row{
+    height:300px;
+    width:96%;
+    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    left:28px;
+    bottom:200px;
+}
+.shop-section-title{
+    height:31px;
+    width:90rem;
+    padding:20px 0px 0px 10px;
+}
+.row-img-container{
+    height:200px;
+    width:91em;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row4{
+    padding:5px;
+}
+.img1-crocs{
+    margin-top:40px;
+    width:200px;
+}
+
+
+.shop-section-8{
+    display:flex;
+    justify-content:space-evenly;
+}
+.box-4th{
+    height:400px;
+    width:340px;
+    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0.227);
+    position:relative;
+    bottom:200px;
+}
+/** designing for box 13 **/
+
+.box13-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box13-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Outdoor-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box13-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Learning-Toys-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box13-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.Action-Figures2-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.Action-Figures2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box13-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Pretend-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.see-more3-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 14 **/
+
+.box14-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box14-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Women-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box14-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Men-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box14-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.girls-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.girls-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box14-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.boys-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.discover-more4-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 15 **/
+
+.box15-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box15-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Laptops-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box15-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.PCs-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box15-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.Hard-drives-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.Hard-drives-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box15-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Monitors-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.Discover-more5-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for box 16 **/
+
+.box16-title{
+  height:27px;
+  width:292px;
+  margin:20px 0px 0px 10px;
+    
+}
+
+.box16-img1{
+    height:100px;
+    width:140px;
+    margin:20px 0px 0px 10px;
+
+}
+.Books-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+.box16-img2{
+   height:100px;
+   width:140px;
+   margin:25px 0px 0px 10px; 
+    
+}
+.Fashion2-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box16-img3{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:43px;
+}
+.PC-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:150px;
+}
+.PC-text{
+    text-decoration:none;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.box16-img4{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:108px;
+
+}
+.Beauty2-text{
+    height:100px;
+    width:140px;
+    position:absolute;
+    left:90px;
+    top:212px;
+    font-size:14px;
+    color:#0f1111;
+}
+
+.Discover3-text{
+    position:absolute;
+    bottom:20px;
+    left:10px;
+    font-size:14px;
+    color:#0f1111;
+    text-decoration:none;
+        
+}
+
+/** designing for 5th row **/
+
+.shop-section-9-row{
+    height:300px;
+    width:96%;
+    background-color:white;
+    border:2px solid rgba(0, 0, 0, 0.164);
+    position:relative;
+    left:28px;
+    bottom:200px;
+}
+.shop-section-title{
+    height:31px;
+    width:90rem;
+    padding:20px 0px 0px 10px;
+}
+.row-img-container{
+    height:200px;
+    width:91em;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+}
+.row5{
+    padding:5px;
+}
+.gamecenter{
+    width:90%;
+}
+
+
+/** bottom-sign-in-option **/
+
+.bottom-sign-in-option{
+    height:190px;
+    width:100%;
+    background-color:white;
+    position:relative;
+    bottom:200px;
+}
+.sign-in-button{
+    height:150px;
+    width:100%;
+    padding-top:20px;
+    text-align:center;
+}
+#sign-in-button-click{
+    height:35px;
+    width:250px;
+    font-family:arial;
+    font-size:15px;
+    border-radius:25px;
+    padding:0px 12px;
+    color:#0f1111;
+    background-color:rgb(238, 241, 9);
+}
+.sign-name{
+    height:15px;
+    width:85%;
+    color:#2a3030;
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:120px;
+    margin-top:5px;
+    
+}
+
+/** end the main and cotainer **/
+/** start the footer **/
+footer{
+    height:1000px;
+    width:100%;
+}
+
+/** tap this button to go on the top page of website **/
+
+.back-to-top{
+    height:40px;
+    width:100%;
+    background-color:#263754;
+    color:white;
+    padding-top:20px;
+    font-size:13px;
+    font-family:arial;
+    text-align:center;
+}
+
+/** amazon help link to hlep us and other things **/
+
+.amazon-link{
+    height:300px;
+    width:100%;
+    background-color:#232f3e;
+    display:flex;
+    justify-content:space-evenly;
+    padding:50px 0px 50px;
+
+}
+/** write css for nav-a **/
+
+.get-to-know-us{
+    height:310px;
+    width:180px;
+    
+    
+
+}
+#get-to-know-us{
+    text-transform:capitalize;
+    color:#dddddd;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-a{
+    list-style-type:none;
+}
+.get-to-know-us-link{
+    text-transform:capitalize;
+    color:#dddddd;
+    text-decoration:none;
+    text-align:left;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.get-to-know-us-link:hover{
+    text-decoration:underline;
+}
+#li1{
+    margin-top:10px;
+}
+
+/** write css for nav-b **/
+
+.make-money-with-us{
+    height:310px;
+    width:205px;
+    
+}
+#make-money-with-us{
+    text-transform:capitalize;
+    color:#dddddd;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-b{
+    list-style-type:none;
+}
+.make-money-with-us-link{
+    text-transform:capitalize;
+    color:#dddddd;
+    text-decoration:none;
+    text-align:left;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#li2{
+    margin-top:10px;
+}
+.make-money-with-us-link:hover{
+    text-decoration:underline;
+}
+
+/** write css for nav-c **/
+
+.amazon-payment-products{
+    height:310px;
+    width:240px;
+    
+}
+#amazon-payment-products{
+    text-transform:capitalize;
+    color:#dddddd;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-c{
+    list-style-type:none;
+}
+.amazon-payment-products-link{
+    text-transform:capitalize;
+    color:#dddddd;
+    text-decoration:none;
+    text-align:left;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#li3{
+    margin-top:10px;
+}
+.amazon-payment-products-link:hover{
+    text-decoration:underline;
+}
+
+
+/** write css for nav-d **/
+
+.let-us-help-you{
+    height:310px;
+    width:177px;
+    
+}
+#let-us-help-you{
+    text-transform:capitalize;
+    color:#dddddd;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-left:38px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-d{
+    list-style-type:none;
+}
+.let-us-help-you-link{
+    text-transform:capitalize;
+    color:#dddddd;
+    text-decoration:none;
+    text-align:left;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#li4{
+    margin-top:10px;
+}
+.let-us-help-you-link:hover{
+    text-decoration:underline;
+}
+
+/** amazon logo and english lan converter us-dollor **/
+
+.amazon-lan-usa{
+    height:110px;
+    width:100em;
+    background-color:#232f3e;
+    padding:10px 73px 10px 73px;
+    display:flex;
+    align-items:center;
+    
+}
+.footer-logo{
+    position:relative;
+    left:370px;
+    
+    
+}
+.amz{
+    border:1px solid rgb(166, 208, 227);
+    margin-left:10px;
+    position:relative;
+    left:400px;
+    font-size:17px; 
+      
+}
+.amz1{
+    color:rgb(213, 203, 203);
+    text-decoration:none;
+}
+.english{
+    color:rgb(224, 214, 214);
+    background-color:transparent;
+    height:34px;
+    width:131px;
+    padding-left:10px;
+    padding-top:10px;
+
+}
+.us-dollar{
+    height:34px;
+    width:150px;
+    padding-left:10px;
+    padding-top:10px;
+
+}
+.united-states{
+    height:34px;
+    width:140px;
+    padding-left:10px;
+    padding-top:10px;
+    
+}
+
+/** amazon products , brand and business to connect you **/
+
+.am-another-brand{
+    height:400px;
+    width:100em;
+    background-color:#131a12;
+    display:flex;
+    align-items:center;
+    
+}
+.nav-contain{
+    height:350px;
+    width:1200px;
+    margin-left:9rem;
+    display:flex;
+    text-decoration:none;
+    text-transform:capitalize;
+}
+
+/** only for heading **/
+h5{
+    font-size:14px;
+     color:#dddddd;
+}
+
+.nav-contain-a{
+    list-style-type:none;
+    font-family:Arial;
+    
+}
+
+.nav-1{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    font-size:12px;
+    margin-top:12px;
+    padding-right:9px;
+    
+}  
+.nav-1:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-2{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-2:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}  
+
+.nav-3{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}    
+.nav-3:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-contain-b{
+    list-style-type:none;
+    
+}
+
+.nav-4{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-4:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-5{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}    
+.nav-5:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-6{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}
+.nav-6:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-7{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}   
+.nav-7:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}     
+
+.nav-contain-c{
+    list-style-type:none;
+}
+
+.nav-8{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+} 
+.nav-8:hover{
+    text-decoration:underline;
+    font-weight:bold;
+} 
+
+.nav-9{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-9:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}  
+
+.nav-10{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+} 
+.nav-10:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-11{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}    
+.nav-11:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}   
+
+.nav-contain-d{
+    list-style-type:none;
+}
+
+.nav-12{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-12:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-13{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+} 
+.nav-13:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}   
+
+.nav-14{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+} 
+.nav-14:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-15{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-15:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}   
+
+.nav-contain-e{
+    list-style-type:none;
+}
+
+.nav-16{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-16:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-17{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-17:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}  
+
+.nav-18{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}
+.nav-18:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-19{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}
+.nav-19:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}    
+
+.nav-contain-f{
+    list-style-type:none;
+    
+}
+
+.nav-20{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-20:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-21{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}   
+.nav-21:hover{
+    text-decoration:underline;
+    font-weight:bold;
+} 
+
+.nav-22{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+} 
+.nav-22:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-23{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-23:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}  
+
+.nav-contain-g{
+    list-style-type:none;
+}
+
+.nav-24{
+    height:53px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-24:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.nav-25{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}   
+.nav-25:hover{
+    text-decoration:underline;
+    font-weight:bold;
+} 
+
+.nav-26{
+    height:67px;
+    width:122px;
+    color:#999999;
+    text-decoration:none;
+    margin-top:12px;
+    font-size:12px;
+    padding-right:9px;
+}  
+.nav-26:hover{
+    text-decoration:underline;
+    font-weight:bold;
+}  
+
+/** copy rights and link **/
+.footer-end{
+    height:50px;
+    width:100%;
+    background-color: #000000;
+    padding:20px 0px 30px;
+    text-align:center;
+
+
+}
+.a-link{
+    color:white;
+    text-decoration:none; 
+    margin-left:10px;
+    font-size:12px;
+    
+}
+.a-link:hover{
+    text-decoration:underline;
+    font-size:13px;
+
+}
+
+/** the end **/
